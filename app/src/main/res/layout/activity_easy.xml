@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/city7"
+    tools:context=".MediumActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steps"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/scoreEasy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/medalEasy"
+            android:background="@drawable/btn_easy"
+            android:src="@drawable/winner_cup"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timer"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <Chronometer
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11:11"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <RelativeLayout
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEasy1"
+                android:text="1"
+                style="@style/BtnStyle" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEasy2"
+                android:text="2"
+                android:layout_toEndOf="@+id/btnEasy1"
+                style="@style/BtnStyle"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEasy3"
+                android:text="3"
+                android:layout_toEndOf="@+id/btnEasy2"
+                style="@style/BtnStyle"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEasy4"
+                android:text="4"
+                android:layout_below="@+id/btnEasy1"
+                style="@style/BtnStyle"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEasy5"
+                android:text="5"
+                android:layout_below="@+id/btnEasy2"
+                android:layout_toEndOf="@+id/btnEasy4"
+                style="@style/BtnStyle"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEasy6"
+                android:text="6"
+                android:layout_below="@+id/btnEasy1"
+                android:layout_toEndOf="@+id/btnEasy5"
+                style="@style/BtnStyle"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEasy7"
+                android:text="7"
+                android:layout_below="@+id/btnEasy4"
+                style="@style/BtnStyle"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEasy8"
+                android:text="8"
+                android:layout_below="@+id/btnEasy5"
+                android:layout_toEndOf="@+id/btnEasy7"
+                style="@style/BtnStyle"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEasy9"
+                style="@style/BtnStyle"
+                android:layout_below="@+id/btnEasy6"
+                android:layout_toEndOf="@+id/btnEasy8"
+                android:background="@drawable/btn_easy" />
+
+
+        </RelativeLayout>
+
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/musicImageEasy"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/ic_baseline_music_note_24"
+                android:background="@drawable/btn_easy"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            >
+
+            <ImageView
+                android:id="@+id/easy_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@drawable/btn_easy"
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/restart"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_refresh"
+                android:background="@drawable/btn_easy"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

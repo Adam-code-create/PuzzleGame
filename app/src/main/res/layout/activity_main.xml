@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/city12"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menu_easy"
+        style="@style/menu_btn_style"
+        android:text="@string/easy"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menu_medium"
+        style="@style/menu_btn_style"
+        android:text="@string/medium"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menu_top_score"
+        style="@style/menu_btn_style"
+        android:text="@string/top_score"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menu_about"
+        android:text="@string/about"
+        style="@style/menu_btn_style" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menu_exit"
+        style="@style/menu_btn_style"
+        android:text="@string/exit"
+
+        />
+
+
+
+
+
+</LinearLayout>

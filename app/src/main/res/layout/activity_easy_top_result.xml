@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/font"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/city10"
+    android:orientation="vertical"
+    tools:context=".EasyTopResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingBottom="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_scores"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_easy"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/btn_easy"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/scoreGoldEasy"
+            android:layout_weight="0.8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/_0"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/btn_easy">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+
+
+        <TextView
+            android:id="@+id/scoreSilverEasy"
+            android:layout_weight="0.6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/_0"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/btn_easy">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/scoreBronzeEasy"
+            android:layout_weight="0.4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/_0"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:id="@+id/backEasyTopScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic__back"
+            android:padding="10dp"
+            android:background="@drawable/btn_easy"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

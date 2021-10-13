@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/font"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/city10"
+    android:orientation="vertical"
+    tools:context=".TopScoreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1.5"
+        android:gravity="bottom"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/easy"
+            android:textColor="#070707"
+            android:textSize="40sp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:background="@drawable/btn_easy"
+            android:id="@+id/easy"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/medium"
+            android:textColor="#070707"
+            android:textSize="40sp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:background="@drawable/btn_easy"
+            android:id="@+id/medium"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/backMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic__back"
+            android:padding="10dp"
+            android:background="@drawable/btn_easy"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

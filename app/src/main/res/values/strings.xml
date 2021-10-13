@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Modern City Puzzle Game</string>
+    <string name="_15">15</string>
+    <string name="puzzle_game">Puzzle Game</string>
+    <string name="silver">Silver</string>
+    <string name="bronze">Bronze</string>
+    <string name="score">Score</string>
+    <string name="gold">Gold</string>
+    <string name="_0">0</string>
+    <string name="top_scores">Top score</string>
+    <string name="about">About</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="top_score">Top Score</string>
+    <string name="exit">Exit</string>
+    <string name="info">Over the beautiful city show how you are speedy and intelligent to set numbers in order!</string>
+    <string name="easy">Easy</string>
+
+</resources>

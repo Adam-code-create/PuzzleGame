@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/city11"
+    tools:context=".Splash">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/puzzle_game"
+        android:textColor="#D6D9EA"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="Modern"
+        android:layout_margin="3dp"
+        android:textColor="#D6D9EA"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:text="City"
+        android:textColor="#D6D9EA"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+       />
+
+
+</LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
